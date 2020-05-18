@@ -1,6 +1,6 @@
 Name:          raptor2
 Version:       2.0.15
-Release:       17
+Release:       18
 Summary:       Raptor RDF parsing and serializing utility
 License:       GPLv2+ or LGPLv2+ or ASL 2.0
 URL:           http://librdf.org/raptor/
@@ -67,5 +67,8 @@ make check
 %{_mandir}/man3/libraptor2*
 
 %changelog
+* Mon May 18 2020 wangchen <wangchen137@huawei.com> - 2.0.15-18
+- rebuild for raptor2
+
 * Fri Dec 20 2019 shijian <shijian16@huawei.com> - 2.0.15-17
 - Package init
