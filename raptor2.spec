@@ -68,7 +68,7 @@ make check
 %{_mandir}/man3/libraptor2*
 
 %changelog
-* Wed Jul 20 2022 liangqifeng <liangqifeng@ncti-gba.com> - 2.0.15-18
+* Wed Jul 20 2022 liangqifeng <liangqifeng@ncti-gba.com> - 2.0.15-19
 - Fix CVE-2020-25713
 
 * Mon May 18 2020 wangchen <wangchen137@huawei.com> - 2.0.15-18
