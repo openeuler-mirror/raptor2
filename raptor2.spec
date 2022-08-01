@@ -1,10 +1,11 @@
 Name:          raptor2
 Version:       2.0.15
-Release:       18
+Release:       19
 Summary:       Raptor RDF parsing and serializing utility
 License:       GPLv2+ or LGPLv2+ or ASL 2.0
 URL:           http://librdf.org/raptor/
 Source:        http://download.librdf.org/source/raptor2-%{version}.tar.gz
+Patch0:        CVE-2020-25713.patch
 BuildRequires: gcc-c++ curl-devel gtk-doc libicu-devel pkgconfig(libxslt) yajl-devel
 Conflicts:     raptor < 1.4.21-10
 
@@ -67,6 +68,9 @@ make check
 %{_mandir}/man3/libraptor2*
 
 %changelog
+* Wed Jul 20 2022 liangqifeng <liangqifeng@ncti-gba.com> - 2.0.15-18
+- Fix CVE-2020-25713
+
 * Mon May 18 2020 wangchen <wangchen137@huawei.com> - 2.0.15-18
 - rebuild for raptor2
 
